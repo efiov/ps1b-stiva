@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stiva. Operatii specifice.</title>
+    <meta name="author" content="Viorel Stefan">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="browser-topBar">
+        <div class="title"></div>
+        <div class="close">
+            <input type="button" value="_">
+            <input type="button" value="[]">
+            <input type="button" value="X">
+        </div>
+    </div>
+    <div id="browser-addressBar">
+        <div id="nav">
+            <input type="button" value="&lt; Inapoi" id="btn-back">
+            <input type="button" value="Inainte &gt;" id="btn-forw">
+            <input type="button" value="Acasa" id="btn-home">
+        </div>
+        <div id="navbar">
+            <input value="" id="input-address">
+        </div>
+        <div class="input-btn">
+            <input type="button" value="Cauta" id="search-btn">
+        </div>
+    </div>
+    <div id="browser-favoriteBar">
+        <input type="button" value="Campus Virtual" id="cv-btn">
+        <input type="button" value="FreeCodeCamp" id="fcc-btn">
+        <input type="button" value="Github" id="git-btn">
+        <input type="button" value="Facebook" id="f-btn">
+    </div>
+    <div class="stack-row" id="nav-title"></div>
+    <div class="stack" id="stack-istoric"></div>
+    <div class="stack" id="stack-backup"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
